@@ -1,0 +1,2675 @@
+{
+  "recorded_at": "2026-10-19",
+  "scope": "Twelve executable domain projects plus this evidence atlas; 26 accepted workstreams. Synthetic exercise results, not adoption.",
+  "cards": [
+    {
+      "repository": "gbesse/mission-intent-repair",
+      "commit": "68d6f101be2fe97a388995447c0d986155ae05c7",
+      "tag": "v0.1.0-alpha.1",
+      "release": "https://github.com/gbesse/mission-intent-repair/releases/tag/v0.1.0-alpha.1",
+      "module": "mission_repair",
+      "summary": {
+        "fr": "Replanifier une mission après la perte d’un relais, sans modifier le passé figé.",
+        "en": "Replan a mission after relay loss while preserving the frozen past.",
+        "es": "Replanificar una misión tras perder un relé, conservando el pasado fijado."
+      },
+      "source_path": "pyproject.toml",
+      "source_sha256": "b6eb0a2a637c066757292d2e3c1b057c4962ba9c7564234aa35c1ea3a9899679",
+      "wheel": {
+        "name": "mission_intent_repair-0.1.0a1-py3-none-any.whl",
+        "sha256": "987956ba9e0aa619aa74ac52c7644a59ca4a716fbe8af659731d9013df0d876e"
+      },
+      "ci": [
+        "https://github.com/gbesse/mission-intent-repair/actions/runs/39318279323",
+        "https://github.com/gbesse/mission-intent-repair/actions/runs/39318077817"
+      ],
+      "limits": {
+        "fr": "Alpha bornée ; données et exercices synthétiques. Voir les limites propres au dépôt. Aucun avantage SOTA ni usage humain prouvé.",
+        "en": "Bounded alpha; synthetic exercises/data. See repository-specific limits. No SOTA advantage or human use proven.",
+        "es": "Alfa acotada; datos y ejercicios sintéticos. Ver límites específicos. Sin ventaja SOTA ni uso humano demostrado."
+      }
+    },
+    {
+      "repository": "gbesse/fab-discovery-loop",
+      "commit": "d1139747780066e4587b454107c44d2a57dc7b36",
+      "tag": "v0.1.0-alpha.1",
+      "release": "https://github.com/gbesse/fab-discovery-loop/releases/tag/v0.1.0-alpha.1",
+      "module": "fab_discovery",
+      "summary": {
+        "fr": "Choisir l’expérience qui distingue les hypothèses, avec coût et risque déclarés.",
+        "en": "Choose experiments that distinguish hypotheses with explicit cost and risk.",
+        "es": "Elegir experimentos que distinguen hipótesis con coste y riesgo declarados."
+      },
+      "source_path": "pyproject.toml",
+      "source_sha256": "5203ef6ba2d4743382ec162bcd379b530035c9c45fe2b19517d7edf80729857b",
+      "wheel": {
+        "name": "fab_discovery_loop-0.1.0a1-py3-none-any.whl",
+        "sha256": "230421b34abe922bd8dade19a8c08689ecbc602164388009c55bc1eaa4311eb5"
+      },
+      "ci": [
+        "https://github.com/gbesse/fab-discovery-loop/actions/runs/39318960838",
+        "https://github.com/gbesse/fab-discovery-loop/actions/runs/39318586972"
+      ],
+      "limits": {
+        "fr": "Alpha bornée ; données et exercices synthétiques. Voir les limites propres au dépôt. Aucun avantage SOTA ni usage humain prouvé.",
+        "en": "Bounded alpha; synthetic exercises/data. See repository-specific limits. No SOTA advantage or human use proven.",
+        "es": "Alfa acotada; datos y ejercicios sintéticos. Ver límites específicos. Sin ventaja SOTA ni uso humano demostrado."
+      }
+    },
+    {
+      "repository": "gbesse/sql-meaning-mutator",
+      "commit": "97c7602a8b60b444aabd056f408e3813d0d1187f",
+      "tag": "v0.1.0-alpha.1",
+      "release": "https://github.com/gbesse/sql-meaning-mutator/releases/tag/v0.1.0-alpha.1",
+      "module": "sql_meaning",
+      "summary": {
+        "fr": "Faire échouer une requête SQL plausible avec une petite base témoin valide.",
+        "en": "Break plausible SQL using a small valid witness database.",
+        "es": "Refutar SQL plausible con una base testigo pequeña y válida."
+      },
+      "source_path": "pyproject.toml",
+      "source_sha256": "3c9fce34ecacca3461f4ba6b1ed362a201d5d9765b2a929938249246b3707e8c",
+      "wheel": {
+        "name": "sql_meaning_mutator-0.1.0a1-py3-none-any.whl",
+        "sha256": "a13bec1fe2622a360ffee1054d2ccc3c721ce9f00e935a76910263d3a0f38d3a"
+      },
+      "ci": [
+        "https://github.com/gbesse/sql-meaning-mutator/actions/runs/39319727840",
+        "https://github.com/gbesse/sql-meaning-mutator/actions/runs/39319573707"
+      ],
+      "limits": {
+        "fr": "Alpha bornée ; données et exercices synthétiques. Voir les limites propres au dépôt. Aucun avantage SOTA ni usage humain prouvé.",
+        "en": "Bounded alpha; synthetic exercises/data. See repository-specific limits. No SOTA advantage or human use proven.",
+        "es": "Alfa acotada; datos y ejercicios sintéticos. Ver límites específicos. Sin ventaja SOTA ni uso humano demostrado."
+      }
+    },
+    {
+      "repository": "gbesse/robot-dataset-crash-lab",
+      "commit": "1686d8a08b05b3f05f91211b1992732a819c4669",
+      "tag": "v0.1.0-alpha.1",
+      "release": "https://github.com/gbesse/robot-dataset-crash-lab/releases/tag/v0.1.0-alpha.1",
+      "module": "robot_crash",
+      "summary": {
+        "fr": "Tuer un vrai enregistreur et vérifier les épisodes visibles après reprise.",
+        "en": "Kill a real recorder and verify visible episodes after recovery.",
+        "es": "Interrumpir un grabador real y verificar episodios visibles tras recuperarlo."
+      },
+      "source_path": "pyproject.toml",
+      "source_sha256": "b912e27fa5a676ac39308a217295e125f7e976aeab8e68fb9a1bc7257f66ae6b",
+      "wheel": {
+        "name": "robot_dataset_crash_lab-0.1.0a1-py3-none-any.whl",
+        "sha256": "eeea0061f07fcb9e63154289d85409fb6d2f730b634d2205332aed9fc32d9a46"
+      },
+      "ci": [
+        "https://github.com/gbesse/robot-dataset-crash-lab/actions/runs/39320416301",
+        "https://github.com/gbesse/robot-dataset-crash-lab/actions/runs/39320148510"
+      ],
+      "limits": {
+        "fr": "Alpha bornée ; données et exercices synthétiques. Voir les limites propres au dépôt. Aucun avantage SOTA ni usage humain prouvé.",
+        "en": "Bounded alpha; synthetic exercises/data. See repository-specific limits. No SOTA advantage or human use proven.",
+        "es": "Alfa acotada; datos y ejercicios sintéticos. Ver límites específicos. Sin ventaja SOTA ni uso humano demostrado."
+      }
+    },
+    {
+      "repository": "gbesse/synthcase-forge",
+      "commit": "345c0d0d1c601eb1511cb140d6743a713f2d40b6",
+      "tag": "v0.1.0-alpha.1",
+      "release": "https://github.com/gbesse/synthcase-forge/releases/tag/v0.1.0-alpha.1",
+      "module": "synthcase",
+      "summary": {
+        "fr": "Construire des cas rares sous contraintes et des paires contrefactuelles vérifiées.",
+        "en": "Build constrained rare cases and verified counterfactual pairs.",
+        "es": "Construir casos raros con restricciones y parejas contrafactuales verificadas."
+      },
+      "source_path": "pyproject.toml",
+      "source_sha256": "40e54b16618f08625a8238bbc0cef8eb5b2fac6278dda7d5848bf776f93b3081",
+      "wheel": {
+        "name": "synthcase_forge-0.1.0a1-py3-none-any.whl",
+        "sha256": "b93e769ce73805685b4b2f72a34857d61e91eb9a19e245197e4ebdf1c3dba82d"
+      },
+      "ci": [
+        "https://github.com/gbesse/synthcase-forge/actions/runs/39321532678",
+        "https://github.com/gbesse/synthcase-forge/actions/runs/39321297047"
+      ],
+      "limits": {
+        "fr": "Alpha bornée ; données et exercices synthétiques. Voir les limites propres au dépôt. Aucun avantage SOTA ni usage humain prouvé.",
+        "en": "Bounded alpha; synthetic exercises/data. See repository-specific limits. No SOTA advantage or human use proven.",
+        "es": "Alfa acotada; datos y ejercicios sintéticos. Ver límites específicos. Sin ventaja SOTA ni uso humano demostrado."
+      }
+    },
+    {
+      "repository": "gbesse/invoice-acceptance-contracts",
+      "commit": "8661fc44c67a83466596485c911717c1314acb71",
+      "tag": "v0.1.0-alpha.1",
+      "release": "https://github.com/gbesse/invoice-acceptance-contracts/releases/tag/v0.1.0-alpha.1",
+      "module": "invoice_contract",
+      "summary": {
+        "fr": "Comparer commande, réception et facture ; proposer un brouillon exact réaudité.",
+        "en": "Compare order, receipt and invoice; propose an exact re-audited draft.",
+        "es": "Comparar pedido, recepción y factura; proponer un borrador exacto reauditado."
+      },
+      "source_path": "pyproject.toml",
+      "source_sha256": "ef41eea4851f8dd8c4b256cd7d87858cfc1e41b423051c92a9d53859413c5b75",
+      "wheel": {
+        "name": "invoice_acceptance_contracts-0.1.0a1-py3-none-any.whl",
+        "sha256": "1d25427c34f032dec470dd999f5f2c058f2d73e95eb283b30f027188dbe4affe"
+      },
+      "ci": [
+        "https://github.com/gbesse/invoice-acceptance-contracts/actions/runs/39322359270",
+        "https://github.com/gbesse/invoice-acceptance-contracts/actions/runs/39322201547"
+      ],
+      "limits": {
+        "fr": "Alpha bornée ; données et exercices synthétiques. Voir les limites propres au dépôt. Aucun avantage SOTA ni usage humain prouvé.",
+        "en": "Bounded alpha; synthetic exercises/data. See repository-specific limits. No SOTA advantage or human use proven.",
+        "es": "Alfa acotada; datos y ejercicios sintéticos. Ver límites específicos. Sin ventaja SOTA ni uso humano demostrado."
+      }
+    },
+    {
+      "repository": "gbesse/agent-compensation-map",
+      "commit": "7ae51dd901bc67bd5f32d11d098e37e6cd44ac59",
+      "tag": "v0.1.0-alpha.1",
+      "release": "https://github.com/gbesse/agent-compensation-map/releases/tag/v0.1.0-alpha.1",
+      "module": "compensation_map",
+      "summary": {
+        "fr": "Observer un résultat ambigu avant de planifier les compensations possibles.",
+        "en": "Observe ambiguous outcomes before planning contingent compensations.",
+        "es": "Observar resultados ambiguos antes de planificar compensaciones condicionales."
+      },
+      "source_path": "pyproject.toml",
+      "source_sha256": "faf315108d6687e623586abfa01c4fd55f5b59f442533bdf5a0530619ea075d8",
+      "wheel": {
+        "name": "agent_compensation_map-0.1.0a1-py3-none-any.whl",
+        "sha256": "063d8b5c4e74b2fb31aa71fbcded21124eb1988a8ab69fd631688cd5226a1a93"
+      },
+      "ci": [
+        "https://github.com/gbesse/agent-compensation-map/actions/runs/39323547111",
+        "https://github.com/gbesse/agent-compensation-map/actions/runs/39323159846"
+      ],
+      "limits": {
+        "fr": "Alpha bornée ; données et exercices synthétiques. Voir les limites propres au dépôt. Aucun avantage SOTA ni usage humain prouvé.",
+        "en": "Bounded alpha; synthetic exercises/data. See repository-specific limits. No SOTA advantage or human use proven.",
+        "es": "Alfa acotada; datos y ejercicios sintéticos. Ver límites específicos. Sin ventaja SOTA ni uso humano demostrado."
+      }
+    },
+    {
+      "repository": "gbesse/resource-outage-explorer",
+      "commit": "c1b7ed7f18c405376b27aa57e324a66543e7443b",
+      "tag": "v0.1.0-alpha.1",
+      "release": "https://github.com/gbesse/resource-outage-explorer/releases/tag/v0.1.0-alpha.1",
+      "module": "outage_explorer",
+      "summary": {
+        "fr": "Prouver le manque de capacité dû à une panne commune et comparer des renforts.",
+        "en": "Prove capacity shortfalls from common-cause outages and compare upgrades.",
+        "es": "Demostrar déficit por fallos comunes y comparar refuerzos."
+      },
+      "source_path": "pyproject.toml",
+      "source_sha256": "55ed105173679ffe5c716991c1f4785f5d4fa09dcfae58cb1e44c015e3706c41",
+      "wheel": {
+        "name": "resource_outage_explorer-0.1.0a1-py3-none-any.whl",
+        "sha256": "9b4d970a29ff394761283b96ebe7f49dcb8ee37ba4c8b550082f6c70a9413e07"
+      },
+      "ci": [
+        "https://github.com/gbesse/resource-outage-explorer/actions/runs/39323724793",
+        "https://github.com/gbesse/resource-outage-explorer/actions/runs/39323593297"
+      ],
+      "limits": {
+        "fr": "Alpha bornée ; données et exercices synthétiques. Voir les limites propres au dépôt. Aucun avantage SOTA ni usage humain prouvé.",
+        "en": "Bounded alpha; synthetic exercises/data. See repository-specific limits. No SOTA advantage or human use proven.",
+        "es": "Alfa acotada; datos y ejercicios sintéticos. Ver límites específicos. Sin ventaja SOTA ni uso humano demostrado."
+      }
+    },
+    {
+      "repository": "gbesse/emotion-lens-lab",
+      "commit": "5da2038f675183f89c3a0d787216ed428eebbccc",
+      "tag": "v0.1.0-alpha.1",
+      "release": "https://github.com/gbesse/emotion-lens-lab/releases/tag/v0.1.0-alpha.1",
+      "module": "emotion_lens",
+      "summary": {
+        "fr": "Comparer texte, personnage et lecteurs sans confondre leurs perspectives.",
+        "en": "Compare text, character and readers without conflating perspectives.",
+        "es": "Comparar texto, personaje y lectores sin confundir perspectivas."
+      },
+      "source_path": "pyproject.toml",
+      "source_sha256": "c972cbe2adcc68c28ad4b2f01a62fb911a7872de13895e31fd78152ddc6eb851",
+      "wheel": {
+        "name": "emotion_lens_lab-0.1.0a1-py3-none-any.whl",
+        "sha256": "d28b8857d40b74c56914af77226a9a65daca0b1e9ab7fa21ee7b7b2f5afe0dba"
+      },
+      "ci": [
+        "https://github.com/gbesse/emotion-lens-lab/actions/runs/39324328512",
+        "https://github.com/gbesse/emotion-lens-lab/actions/runs/39324178020"
+      ],
+      "limits": {
+        "fr": "Alpha bornée ; données et exercices synthétiques. Voir les limites propres au dépôt. Aucun avantage SOTA ni usage humain prouvé.",
+        "en": "Bounded alpha; synthetic exercises/data. See repository-specific limits. No SOTA advantage or human use proven.",
+        "es": "Alfa acotada; datos y ejercicios sintéticos. Ver límites específicos. Sin ventaja SOTA ni uso humano demostrado."
+      }
+    },
+    {
+      "repository": "gbesse/brain-breakers",
+      "commit": "ce7ff30248f73ad6838c4047536d98bdc7942f7c",
+      "tag": "v0.1.0-alpha.1",
+      "release": "https://github.com/gbesse/brain-breakers/releases/tag/v0.1.0-alpha.1",
+      "module": "brain_breakers",
+      "summary": {
+        "fr": "Rejouer et réduire les défauts de suppression, correction et isolation mémoire.",
+        "en": "Replay and reduce memory deletion, correction and isolation faults.",
+        "es": "Repetir y reducir fallos de borrado, corrección y aislamiento de memoria."
+      },
+      "source_path": "pyproject.toml",
+      "source_sha256": "c2ff0aa23a67d5cc1aacd7dacce178563bfbb162de1ca0c2e7c2e64637c803b7",
+      "wheel": {
+        "name": "brain_breakers-0.1.0a1-py3-none-any.whl",
+        "sha256": "48329c9562409bf33b63c8a8828b91bd255521607d3a384f7fda6bedd4af99f5"
+      },
+      "ci": [
+        "https://github.com/gbesse/brain-breakers/actions/runs/39325097868",
+        "https://github.com/gbesse/brain-breakers/actions/runs/39324816959"
+      ],
+      "limits": {
+        "fr": "Alpha bornée ; données et exercices synthétiques. Voir les limites propres au dépôt. Aucun avantage SOTA ni usage humain prouvé.",
+        "en": "Bounded alpha; synthetic exercises/data. See repository-specific limits. No SOTA advantage or human use proven.",
+        "es": "Alfa acotada; datos y ejercicios sintéticos. Ver límites específicos. Sin ventaja SOTA ni uso humano demostrado."
+      }
+    },
+    {
+      "repository": "gbesse/hedge-counterexample",
+      "commit": "499f772b215821d87329dcf0329be8b4078f6cb2",
+      "tag": "v0.1.0-alpha.1",
+      "release": "https://github.com/gbesse/hedge-counterexample/releases/tag/v0.1.0-alpha.1",
+      "module": "hedge_counterexample",
+      "summary": {
+        "fr": "Exposer les trous de fuseau, frais et exécution partielle avec un témoin rejouable.",
+        "en": "Expose timezone, fee and partial-fill gaps using replayable witnesses.",
+        "es": "Mostrar huecos de zona horaria, comisiones y ejecución parcial con testigo reproducible."
+      },
+      "source_path": "pyproject.toml",
+      "source_sha256": "af60ee677d2e700a58a4e1c5efd749e380554a674fb44ae4f4acb4da494b65ea",
+      "wheel": {
+        "name": "hedge_counterexample-0.1.0a1-py3-none-any.whl",
+        "sha256": "7a4f36600da30cdc7210b8c78a99ccdeb2a3c7b556e718ff5cbd91dea17adb70"
+      },
+      "ci": [
+        "https://github.com/gbesse/hedge-counterexample/actions/runs/39325579253",
+        "https://github.com/gbesse/hedge-counterexample/actions/runs/39325372150"
+      ],
+      "limits": {
+        "fr": "Alpha bornée ; données et exercices synthétiques. Voir les limites propres au dépôt. Aucun avantage SOTA ni usage humain prouvé.",
+        "en": "Bounded alpha; synthetic exercises/data. See repository-specific limits. No SOTA advantage or human use proven.",
+        "es": "Alfa acotada; datos y ejercicios sintéticos. Ver límites específicos. Sin ventaja SOTA ni uso humano demostrado."
+      }
+    },
+    {
+      "repository": "gbesse/semantic-plan-compiler",
+      "commit": "fc2d201ddfb4b7d92431946ab7c54413f2d068e6",
+      "tag": "v0.1.0-alpha.1",
+      "release": "https://github.com/gbesse/semantic-plan-compiler/releases/tag/v0.1.0-alpha.1",
+      "module": "semantic_plan",
+      "summary": {
+        "fr": "Compiler choix typés, calculs exacts, cache complet, budgets et provenance SQL.",
+        "en": "Compile typed choices, exact arithmetic, whole-request cache, budgets and SQL lineage.",
+        "es": "Compilar elecciones tipadas, cálculo exacto, caché completa, presupuestos y procedencia SQL."
+      },
+      "source_path": "pyproject.toml",
+      "source_sha256": "ddbc2fba7b411744c530057b9626fa27bc6222c36be2df6f99244ebd61fcbfec",
+      "wheel": {
+        "name": "semantic_plan_compiler-0.1.0a1-py3-none-any.whl",
+        "sha256": "e37b8c458116bb2883ce9d67692ea28785e55d2d4e0ecf0a8176c55e4a642cdc"
+      },
+      "ci": [
+        "https://github.com/gbesse/semantic-plan-compiler/actions/runs/39325992543",
+        "https://github.com/gbesse/semantic-plan-compiler/actions/runs/39325814801"
+      ],
+      "limits": {
+        "fr": "Alpha bornée ; données et exercices synthétiques. Voir les limites propres au dépôt. Aucun avantage SOTA ni usage humain prouvé.",
+        "en": "Bounded alpha; synthetic exercises/data. See repository-specific limits. No SOTA advantage or human use proven.",
+        "es": "Alfa acotada; datos y ejercicios sintéticos. Ver límites específicos. Sin ventaja SOTA ni uso humano demostrado."
+      }
+    },
+    {
+      "repository": "gbesse/oss-evidence-atlas",
+      "commit": "package-sha256:bb3067c9188f24b1378a9273213f099dab7b29033c5654fd3c74fdd9e78137c8",
+      "tag": "v0.1.0-alpha.1",
+      "release": "https://github.com/gbesse/oss-evidence-atlas/releases/tag/v0.1.0-alpha.1",
+      "module": null,
+      "summary": {
+        "fr": "Relier chaque chantier à ses tests ; distinguer déclarations, accès public et adoption ; détecter les preuves périmées.",
+        "en": "Link each workstream to tests; distinguish declarations, public access and adoption; detect stale evidence.",
+        "es": "Vincular cada línea a pruebas; separar declaraciones, acceso público y adopción; detectar pruebas obsoletas."
+      },
+      "limits": {
+        "fr": "Auto-évaluation liée à l’empreinte des fichiers du paquet ; la CI de cette version reste la preuve externe. Pas d’attestation indépendante.",
+        "en": "Self-evaluation bound to package-file fingerprint; this release CI remains external evidence. Not an independent attestation.",
+        "es": "Autoevaluación vinculada a la huella del paquete; su CI es prueba externa. No es certificación independiente."
+      },
+      "ci": []
+    }
+  ],
+  "requirements": [
+    {
+      "id": "workstream-01",
+      "repository": "gbesse/oss-evidence-atlas",
+      "feature": "coverage",
+      "title": {
+        "fr": "Couverture exhaustive des chantiers",
+        "en": "Exhaustive workstream coverage",
+        "es": "Cobertura exhaustiva de líneas de trabajo"
+      },
+      "project": "global-open-source",
+      "required_checks": [
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_coverage_exposes_missing_stale_and_failed_receipts",
+        "path": "tests/test_evidence.py",
+        "line": 45,
+        "url": "https://github.com/gbesse/oss-evidence-atlas/blob/v0.1.0-alpha.1/tests/test_evidence.py#L45"
+      }
+    },
+    {
+      "id": "workstream-02",
+      "repository": "gbesse/oss-evidence-atlas",
+      "feature": "manifest",
+      "title": {
+        "fr": "Déclarations de dépendances avec provenance",
+        "en": "Dependency declarations with provenance",
+        "es": "Declaraciones de dependencias con procedencia"
+      },
+      "project": "global-open-source",
+      "required_checks": [
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_npm_dependency_scopes_and_exact_target_not_substring",
+        "path": "tests/test_evidence.py",
+        "line": 10,
+        "url": "https://github.com/gbesse/oss-evidence-atlas/blob/v0.1.0-alpha.1/tests/test_evidence.py#L10"
+      }
+    },
+    {
+      "id": "workstream-03",
+      "repository": "gbesse/oss-evidence-atlas",
+      "feature": "freshness",
+      "title": {
+        "fr": "Détecter les preuves périmées après changement de source",
+        "en": "Detect stale evidence after source changes",
+        "es": "Detectar pruebas obsoletas tras cambios de fuente"
+      },
+      "project": "global-open-source",
+      "required_checks": [
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_stale_source_requires_review_even_when_demo_still_passes",
+        "path": "tests/test_evidence.py",
+        "line": 35,
+        "url": "https://github.com/gbesse/oss-evidence-atlas/blob/v0.1.0-alpha.1/tests/test_evidence.py#L35"
+      }
+    },
+    {
+      "id": "workstream-04",
+      "repository": "gbesse/mission-intent-repair",
+      "feature": "frozen",
+      "title": {
+        "fr": "Réparation minimale et passé figé",
+        "en": "Minimal repair and frozen past",
+        "es": "Reparación mínima y pasado fijado"
+      },
+      "project": "global-open-source",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_outage_repairs_future_preserves_past",
+        "path": "tests/test_solver.py",
+        "line": 23,
+        "url": "https://github.com/gbesse/mission-intent-repair/blob/68d6f101be2fe97a388995447c0d986155ae05c7/tests/test_solver.py#L23"
+      }
+    },
+    {
+      "id": "workstream-05",
+      "repository": "gbesse/fab-discovery-loop",
+      "feature": "information",
+      "title": {
+        "fr": "Expérience par gain d’information attendu",
+        "en": "Experiment by expected information gain",
+        "es": "Experimento por ganancia esperada de información"
+      },
+      "project": "global-open-source",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_information_gain_matches_expected_kl_oracle",
+        "path": "tests/test_engine.py",
+        "line": 23,
+        "url": "https://github.com/gbesse/fab-discovery-loop/blob/d1139747780066e4587b454107c44d2a57dc7b36/tests/test_engine.py#L23"
+      }
+    },
+    {
+      "id": "workstream-06",
+      "repository": "gbesse/sql-meaning-mutator",
+      "feature": "mutation",
+      "title": {
+        "fr": "Mutations relationnelles et témoin réduit",
+        "en": "Relational mutations and reduced witness",
+        "es": "Mutaciones relacionales y testigo reducido"
+      },
+      "project": "global-open-source",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_minimal_witness_preserves_symptom_and_declared_business_constraints",
+        "path": "tests/test_engine.py",
+        "line": 24,
+        "url": "https://github.com/gbesse/sql-meaning-mutator/blob/97c7602a8b60b444aabd056f408e3813d0d1187f/tests/test_engine.py#L24"
+      }
+    },
+    {
+      "id": "workstream-07",
+      "repository": "gbesse/agent-compensation-map",
+      "feature": "observation",
+      "title": {
+        "fr": "Observer avant de compenser",
+        "en": "Observe before compensating",
+        "es": "Observar antes de compensar"
+      },
+      "project": "global-open-source",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_strong_plan_observes_before_conditional_refund",
+        "path": "tests/test_planner.py",
+        "line": 17,
+        "url": "https://github.com/gbesse/agent-compensation-map/blob/7ae51dd901bc67bd5f32d11d098e37e6cd44ac59/tests/test_planner.py#L17"
+      }
+    },
+    {
+      "id": "workstream-08",
+      "repository": "gbesse/resource-outage-explorer",
+      "feature": "cut",
+      "title": {
+        "fr": "Pannes communes et certificat de coupe",
+        "en": "Common-cause outages and cut certificate",
+        "es": "Fallos comunes y certificado de corte"
+      },
+      "project": "global-open-source",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_independent_checker_rejects_forged_flow_and_shortfall",
+        "path": "tests/test_engine.py",
+        "line": 60,
+        "url": "https://github.com/gbesse/resource-outage-explorer/blob/c1b7ed7f18c405376b27aa57e324a66543e7443b/tests/test_engine.py#L60"
+      }
+    },
+    {
+      "id": "workstream-09",
+      "repository": "gbesse/robot-dataset-crash-lab",
+      "feature": "kill",
+      "title": {
+        "fr": "SIGKILL réel et reprise cohérente",
+        "en": "Real SIGKILL and consistent recovery",
+        "es": "SIGKILL real y recuperación coherente"
+      },
+      "project": "global-open-source",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_real_sigkill_at_all_eight_checkpoint_protocol_pairs",
+        "path": "tests/test_crash_lab.py",
+        "line": 21,
+        "url": "https://github.com/gbesse/robot-dataset-crash-lab/blob/1686d8a08b05b3f05f91211b1992732a819c4669/tests/test_crash_lab.py#L21"
+      }
+    },
+    {
+      "id": "workstream-10",
+      "repository": "gbesse/synthcase-forge",
+      "feature": "counterfactual",
+      "title": {
+        "fr": "Cohortes contraintes et contrefactuels minimaux",
+        "en": "Constrained cohorts and minimal counterfactuals",
+        "es": "Cohortes restringidas y contrafactuales mínimos"
+      },
+      "project": "global-open-source",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_minimum_counterfactual_matches_exhaustive_oracle",
+        "path": "tests/test_engine.py",
+        "line": 57,
+        "url": "https://github.com/gbesse/synthcase-forge/blob/345c0d0d1c601eb1511cb140d6743a713f2d40b6/tests/test_engine.py#L57"
+      }
+    },
+    {
+      "id": "workstream-11",
+      "repository": "gbesse/invoice-acceptance-contracts",
+      "feature": "receipt",
+      "title": {
+        "fr": "Acceptation sur commande et réception",
+        "en": "Acceptance against order and receipt",
+        "es": "Aceptación según pedido y recepción"
+      },
+      "project": "global-open-source",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_partial_receipt_and_previous_billing_are_both_accounted",
+        "path": "tests/test_engine.py",
+        "line": 17,
+        "url": "https://github.com/gbesse/invoice-acceptance-contracts/blob/8661fc44c67a83466596485c911717c1314acb71/tests/test_engine.py#L17"
+      }
+    },
+    {
+      "id": "workstream-12",
+      "repository": "gbesse/oss-evidence-atlas",
+      "feature": "gallery",
+      "title": {
+        "fr": "Fiches exécutables et livrables vérifiés",
+        "en": "Executable cards and verified deliverables",
+        "es": "Fichas ejecutables y entregables verificados"
+      },
+      "project": "jev",
+      "required_checks": [
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_capability_assertions_reject_just_valid_but_wrong_json",
+        "path": "tests/test_evidence.py",
+        "line": 44,
+        "url": "https://github.com/gbesse/oss-evidence-atlas/blob/v0.1.0-alpha.1/tests/test_evidence.py#L44"
+      }
+    },
+    {
+      "id": "workstream-13",
+      "repository": "gbesse/hedge-counterexample",
+      "feature": "timezone",
+      "title": {
+        "fr": "Équivalence temporelle et fuseaux explicites",
+        "en": "Temporal equivalence and explicit timezones",
+        "es": "Equivalencia temporal y zonas explícitas"
+      },
+      "project": "jev",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_same_title_timezones_create_both_losing_legs",
+        "path": "tests/test_engine.py",
+        "line": 8,
+        "url": "https://github.com/gbesse/hedge-counterexample/blob/499f772b215821d87329dcf0329be8b4078f6cb2/tests/test_engine.py#L8"
+      }
+    },
+    {
+      "id": "workstream-14",
+      "repository": "gbesse/emotion-lens-lab",
+      "feature": "obsidian",
+      "title": {
+        "fr": "Export natif Obsidian et courbe partageable",
+        "en": "Native Obsidian export and shareable arc",
+        "es": "Exportación nativa Obsidian y curva compartible"
+      },
+      "project": "jev",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_markdown_preserves_quotes_and_uses_stable_obsidian_anchors",
+        "path": "tests/test_engine.py",
+        "line": 42,
+        "url": "https://github.com/gbesse/emotion-lens-lab/blob/5da2038f675183f89c3a0d787216ed428eebbccc/tests/test_engine.py#L42"
+      }
+    },
+    {
+      "id": "workstream-15",
+      "repository": "gbesse/emotion-lens-lab",
+      "feature": "perspectives",
+      "title": {
+        "fr": "Émotions attribuées et désaccord des lecteurs",
+        "en": "Attributed emotions and reader disagreement",
+        "es": "Emociones atribuidas y desacuerdo de lectores"
+      },
+      "project": "jev",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_pairwise_disagreement_has_independent_arithmetic",
+        "path": "tests/test_engine.py",
+        "line": 21,
+        "url": "https://github.com/gbesse/emotion-lens-lab/blob/5da2038f675183f89c3a0d787216ed428eebbccc/tests/test_engine.py#L21"
+      }
+    },
+    {
+      "id": "workstream-16",
+      "repository": "gbesse/semantic-plan-compiler",
+      "feature": "budgets",
+      "title": {
+        "fr": "Contrats typés et budgets effectifs",
+        "en": "Typed contracts and enforced budgets",
+        "es": "Contratos tipados y presupuestos efectivos"
+      },
+      "project": "jev",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_budget_does_not_make_silent_decisions_or_exceed_attempts",
+        "path": "tests/test_engine.py",
+        "line": 32,
+        "url": "https://github.com/gbesse/semantic-plan-compiler/blob/fc2d201ddfb4b7d92431946ab7c54413f2d068e6/tests/test_engine.py#L32"
+      }
+    },
+    {
+      "id": "workstream-17",
+      "repository": "gbesse/brain-breakers",
+      "feature": "source-removal",
+      "title": {
+        "fr": "Mutations mémoire sur trois moteurs réels",
+        "en": "Memory mutations on three real engines",
+        "es": "Mutaciones de memoria en tres motores reales"
+      },
+      "project": "jev",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_real_chroma_mutation_matrix",
+        "path": "tests/test_engine.py",
+        "line": 33,
+        "url": "https://github.com/gbesse/brain-breakers/blob/ce7ff30248f73ad6838c4047536d98bdc7942f7c/tests/test_engine.py#L33"
+      }
+    },
+    {
+      "id": "workstream-18",
+      "repository": "gbesse/semantic-plan-compiler",
+      "feature": "end-to-end",
+      "title": {
+        "fr": "Parcours contrat, exécution, revue et SQL",
+        "en": "Contract, execution, review and SQL workflow",
+        "es": "Flujo contrato, ejecución, revisión y SQL"
+      },
+      "project": "jev",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_sql_materialization_and_read_only_query",
+        "path": "tests/test_engine.py",
+        "line": 47,
+        "url": "https://github.com/gbesse/semantic-plan-compiler/blob/fc2d201ddfb4b7d92431946ab7c54413f2d068e6/tests/test_engine.py#L47"
+      }
+    },
+    {
+      "id": "workstream-19",
+      "repository": "gbesse/invoice-acceptance-contracts",
+      "feature": "draft",
+      "title": {
+        "fr": "Brouillon de correction exact réaudité",
+        "en": "Exact re-audited correction draft",
+        "es": "Borrador de corrección exacto reauditado"
+      },
+      "project": "jev",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_repair_draft_reaudits_cleanly_without_mutating_source",
+        "path": "tests/test_engine.py",
+        "line": 23,
+        "url": "https://github.com/gbesse/invoice-acceptance-contracts/blob/8661fc44c67a83466596485c911717c1314acb71/tests/test_engine.py#L23"
+      }
+    },
+    {
+      "id": "workstream-20",
+      "repository": "gbesse/semantic-plan-compiler",
+      "feature": "conformance",
+      "title": {
+        "fr": "Fixtures de conformité réutilisables",
+        "en": "Reusable conformance fixtures",
+        "es": "Casos reutilizables de conformidad"
+      },
+      "project": "jev",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_unoptimized_executor_makes_fifteen_actual_fixture_calls",
+        "path": "tests/test_engine.py",
+        "line": 55,
+        "url": "https://github.com/gbesse/semantic-plan-compiler/blob/fc2d201ddfb4b7d92431946ab7c54413f2d068e6/tests/test_engine.py#L55"
+      }
+    },
+    {
+      "id": "workstream-21",
+      "repository": "gbesse/semantic-plan-compiler",
+      "feature": "compiler",
+      "title": {
+        "fr": "Compilation DAG et contexte projeté",
+        "en": "DAG compilation and projected context",
+        "es": "Compilación DAG y contexto proyectado"
+      },
+      "project": "jev",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_cse_projection_batching_and_exact_arithmetic",
+        "path": "tests/test_engine.py",
+        "line": 13,
+        "url": "https://github.com/gbesse/semantic-plan-compiler/blob/fc2d201ddfb4b7d92431946ab7c54413f2d068e6/tests/test_engine.py#L13"
+      }
+    },
+    {
+      "id": "workstream-22",
+      "repository": "gbesse/semantic-plan-compiler",
+      "feature": "invalidation",
+      "title": {
+        "fr": "Invalidation ciblée et abstention propagée",
+        "en": "Targeted invalidation and propagated abstention",
+        "es": "Invalidación dirigida y abstención propagada"
+      },
+      "project": "jev",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_policy_and_model_contract_changes_invalidate_cache",
+        "path": "tests/test_engine.py",
+        "line": 22,
+        "url": "https://github.com/gbesse/semantic-plan-compiler/blob/fc2d201ddfb4b7d92431946ab7c54413f2d068e6/tests/test_engine.py#L22"
+      }
+    },
+    {
+      "id": "workstream-23",
+      "repository": "gbesse/hedge-counterexample",
+      "feature": "fills",
+      "title": {
+        "fr": "Quantités exécutées, frais et couverture conditionnelle",
+        "en": "Filled quantities, fees and conditional coverage",
+        "es": "Cantidades ejecutadas, comisiones y cobertura condicional"
+      },
+      "project": "jev",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_independent_partial_fills_break_full_fill_cover",
+        "path": "tests/test_engine.py",
+        "line": 12,
+        "url": "https://github.com/gbesse/hedge-counterexample/blob/499f772b215821d87329dcf0329be8b4078f6cb2/tests/test_engine.py#L12"
+      }
+    },
+    {
+      "id": "workstream-24",
+      "repository": "gbesse/agent-compensation-map",
+      "feature": "irreversible",
+      "title": {
+        "fr": "Restauration après succès partiel et limite irréversible",
+        "en": "Recovery after partial success and irreversible limits",
+        "es": "Recuperación tras éxito parcial y límites irreversibles"
+      },
+      "project": "jev",
+      "required_checks": [
+        "demo",
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_irreversible_notification_is_not_magically_unsent",
+        "path": "tests/test_planner.py",
+        "line": 39,
+        "url": "https://github.com/gbesse/agent-compensation-map/blob/7ae51dd901bc67bd5f32d11d098e37e6cd44ac59/tests/test_planner.py#L39"
+      }
+    },
+    {
+      "id": "workstream-25",
+      "repository": "gbesse/oss-evidence-atlas",
+      "feature": "replay",
+      "title": {
+        "fr": "Rejeu sûr des tests et démonstrations enregistrés",
+        "en": "Safe replay of registered tests and demos",
+        "es": "Reproducción segura de pruebas y demostraciones registradas"
+      },
+      "project": "jev",
+      "required_checks": [
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_unregistered_replay_is_rejected_before_execution",
+        "path": "tests/test_evidence.py",
+        "line": 52,
+        "url": "https://github.com/gbesse/oss-evidence-atlas/blob/v0.1.0-alpha.1/tests/test_evidence.py#L52"
+      }
+    },
+    {
+      "id": "workstream-26",
+      "repository": "gbesse/oss-evidence-atlas",
+      "feature": "anonymous",
+      "title": {
+        "fr": "Vérification anonyme des sources et roues publiées",
+        "en": "Anonymous verification of published sources and wheels",
+        "es": "Verificación anónima de fuentes y ruedas publicadas"
+      },
+      "project": "jev",
+      "required_checks": [
+        "unit",
+        "browser"
+      ],
+      "test_ref": {
+        "name": "test_release_requires_anonymous_source_and_matching_wheel_hash",
+        "path": "tests/test_evidence.py",
+        "line": 40,
+        "url": "https://github.com/gbesse/oss-evidence-atlas/blob/v0.1.0-alpha.1/tests/test_evidence.py#L40"
+      }
+    }
+  ],
+  "receipts": [
+    {
+      "repository": "gbesse/mission-intent-repair",
+      "commit": "68d6f101be2fe97a388995447c0d986155ae05c7",
+      "check_id": "registered_demo",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "e2afb26a59dc41f2c46d59e64a96eb514901a574cb0a1b8f64183b21a7b114d9",
+      "json_object": true,
+      "assertions": [
+        {
+          "path": [
+            "outage",
+            "utility"
+          ],
+          "expected": 8,
+          "actual": 8,
+          "passed": true
+        },
+        {
+          "path": [
+            "outage",
+            "replay",
+            "valid"
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "path": [
+            "outage",
+            "plan",
+            "calibrate"
+          ],
+          "expected": 0,
+          "actual": 0,
+          "passed": true
+        }
+      ],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:13.273126+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/mission-intent-repair",
+      "commit": "68d6f101be2fe97a388995447c0d986155ae05c7",
+      "check_id": "registered_unit",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": 10,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:13.590721+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/mission-intent-repair",
+      "commit": "68d6f101be2fe97a388995447c0d986155ae05c7",
+      "check_id": "registered_browser",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "24d1841c2808bca5a9e6727b1c5b4aa8c9efcd51bbaf845cf163d4431c39e05f",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:15.119661+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/fab-discovery-loop",
+      "commit": "d1139747780066e4587b454107c44d2a57dc7b36",
+      "check_id": "registered_demo",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "8ffdb6e624426fcd96df16b7920840f62c43b51285a492c79b22066d99dfb922",
+      "json_object": true,
+      "assertions": [
+        {
+          "path": [
+            "recommendation"
+          ],
+          "expected": "p3-d2",
+          "actual": "p3-d2",
+          "passed": true
+        },
+        {
+          "path": [
+            "hardware_executed"
+          ],
+          "expected": false,
+          "actual": false,
+          "passed": true
+        }
+      ],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:15.188753+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/fab-discovery-loop",
+      "commit": "d1139747780066e4587b454107c44d2a57dc7b36",
+      "check_id": "registered_unit",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": 14,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:15.275377+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/fab-discovery-loop",
+      "commit": "d1139747780066e4587b454107c44d2a57dc7b36",
+      "check_id": "registered_browser",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "b6d63d1cac18d2c70c12664a1691087d1ad0c8e9358a59fc82732c553b91cefc",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:16.625210+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/sql-meaning-mutator",
+      "commit": "97c7602a8b60b444aabd056f408e3813d0d1187f",
+      "check_id": "registered_demo",
+      "passed": true,
+      "expected_exit": 1,
+      "exit_code": 1,
+      "stdout_sha256": "ac1b68dc1e24f9ffb3e594c28e4463df40a92c47a8150b15c1cc114154521503",
+      "json_object": true,
+      "assertions": [
+        {
+          "path": [
+            "status"
+          ],
+          "expected": "counterexample",
+          "actual": "counterexample",
+          "passed": true
+        },
+        {
+          "path": [
+            "seed_equal"
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "path": [
+            "row_count"
+          ],
+          "expected": 4,
+          "actual": 4,
+          "passed": true
+        }
+      ],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:16.692872+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/sql-meaning-mutator",
+      "commit": "97c7602a8b60b444aabd056f408e3813d0d1187f",
+      "check_id": "registered_unit",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": 16,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:16.771263+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/sql-meaning-mutator",
+      "commit": "97c7602a8b60b444aabd056f408e3813d0d1187f",
+      "check_id": "registered_browser",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "23f90cf2edaaf1171f4e11a10d6fad260041ad0f422b3f537f44635654f76779",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:18.137871+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/robot-dataset-crash-lab",
+      "commit": "1686d8a08b05b3f05f91211b1992732a819c4669",
+      "check_id": "registered_demo",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "adab242bcad9d423207d5ab9c22d1eeb347e9bc71273296fbd1b6be0386e67ae",
+      "json_object": true,
+      "assertions": [
+        {
+          "path": [
+            "real_process_kills"
+          ],
+          "expected": 8,
+          "actual": 8,
+          "passed": true
+        },
+        {
+          "path": [
+            "safe_protocol_passed"
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "path": [
+            "broken_control_detected"
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        }
+      ],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:18.489151+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/robot-dataset-crash-lab",
+      "commit": "1686d8a08b05b3f05f91211b1992732a819c4669",
+      "check_id": "registered_unit",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": 14,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:19.356943+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/robot-dataset-crash-lab",
+      "commit": "1686d8a08b05b3f05f91211b1992732a819c4669",
+      "check_id": "registered_browser",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "4b0d9d6a5d9f2dbd90a6013310a8e6ba97ce99f295cde564e77b2576bbf66e57",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:20.885762+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/synthcase-forge",
+      "commit": "345c0d0d1c601eb1511cb140d6743a713f2d40b6",
+      "check_id": "registered_demo",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "3b10859c83f590afe1c5f49c52b6012f33f382795df10b9f2ac3d0e36794e4cd",
+      "json_object": true,
+      "assertions": [
+        {
+          "path": [
+            "dataset",
+            "status"
+          ],
+          "expected": "complete",
+          "actual": "complete",
+          "passed": true
+        },
+        {
+          "path": [
+            "dataset",
+            "synthetic"
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        }
+      ],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:21.181958+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/synthcase-forge",
+      "commit": "345c0d0d1c601eb1511cb140d6743a713f2d40b6",
+      "check_id": "registered_unit",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": 14,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:21.544936+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/synthcase-forge",
+      "commit": "345c0d0d1c601eb1511cb140d6743a713f2d40b6",
+      "check_id": "registered_browser",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "e00e0b29f4dec1d6012eefe1b33a88adc77e8540f148f23ed41e6494d7637bf6",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:23.214631+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/invoice-acceptance-contracts",
+      "commit": "8661fc44c67a83466596485c911717c1314acb71",
+      "check_id": "registered_demo",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "941ae132ea41082e99bf21e05fcfde6a483c5a2e6a2103810af52698ca2c3eac",
+      "json_object": true,
+      "assertions": [
+        {
+          "path": [
+            "audit",
+            "status"
+          ],
+          "expected": "blocked",
+          "actual": "blocked",
+          "passed": true
+        },
+        {
+          "path": [
+            "proposal",
+            "after_line_subtotal"
+          ],
+          "expected": "12.50",
+          "actual": "12.50",
+          "passed": true
+        },
+        {
+          "path": [
+            "proposal",
+            "audit",
+            "status"
+          ],
+          "expected": "ready_for_review",
+          "actual": "ready_for_review",
+          "passed": true
+        }
+      ],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:23.276925+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/invoice-acceptance-contracts",
+      "commit": "8661fc44c67a83466596485c911717c1314acb71",
+      "check_id": "registered_unit",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": 14,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:23.351964+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/invoice-acceptance-contracts",
+      "commit": "8661fc44c67a83466596485c911717c1314acb71",
+      "check_id": "registered_browser",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "62efe03ef78990cdd72f2c50eaaf2a3d2591f4d919b303d5cec34ac673502e01",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:25.221445+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/agent-compensation-map",
+      "commit": "7ae51dd901bc67bd5f32d11d098e37e6cd44ac59",
+      "check_id": "registered_demo",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "11782c0e5f2e10ad9765c740d65374ea6bbfbfecb120d75c53deadd6f4e042ab",
+      "json_object": true,
+      "assertions": [
+        {
+          "path": [
+            "verification",
+            "valid"
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "path": [
+            "verification",
+            "worlds_checked"
+          ],
+          "expected": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "path": [
+            "worst_case_cost"
+          ],
+          "expected": 9,
+          "actual": 9,
+          "passed": true
+        }
+      ],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:25.289006+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/agent-compensation-map",
+      "commit": "7ae51dd901bc67bd5f32d11d098e37e6cd44ac59",
+      "check_id": "registered_unit",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": 13,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:25.385317+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/agent-compensation-map",
+      "commit": "7ae51dd901bc67bd5f32d11d098e37e6cd44ac59",
+      "check_id": "registered_browser",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "59aad315af80ddcfe41a22a86edb3f049d21492ef5fab34a885f30ec5c401f11",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:27.062805+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/resource-outage-explorer",
+      "commit": "c1b7ed7f18c405376b27aa57e324a66543e7443b",
+      "check_id": "registered_demo",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "ee8844087c1bb10d15ca57cd0560dfc8f41de0cf75d33370df9e9b19b8e257ad",
+      "json_object": true,
+      "assertions": [
+        {
+          "path": [
+            "baseline",
+            "worst",
+            "shortfall"
+          ],
+          "expected": 6,
+          "actual": 6,
+          "passed": true
+        },
+        {
+          "path": [
+            "baseline",
+            "worst",
+            "flow",
+            "certificate",
+            "valid"
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "path": [
+            "best_single_catalog_upgrade"
+          ],
+          "expected": "independent-backup",
+          "actual": "independent-backup",
+          "passed": true
+        }
+      ],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:27.124609+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/resource-outage-explorer",
+      "commit": "c1b7ed7f18c405376b27aa57e324a66543e7443b",
+      "check_id": "registered_unit",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": 12,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:27.203307+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/resource-outage-explorer",
+      "commit": "c1b7ed7f18c405376b27aa57e324a66543e7443b",
+      "check_id": "registered_browser",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "28cf0b1e8e84b0cd630e5b5cf2cd7f1c8bae79d624387b718e2e7add68e3fefd",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:28.314771+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/emotion-lens-lab",
+      "commit": "5da2038f675183f89c3a0d787216ed428eebbccc",
+      "check_id": "registered_demo",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "8d6efd61935a501b064adbac7906d4fc5022cc443079f455a52d679fbf70c2f5",
+      "json_object": true,
+      "assertions": [
+        {
+          "path": [
+            "observed_reader_cells"
+          ],
+          "expected": 7,
+          "actual": 7,
+          "passed": true
+        },
+        {
+          "path": [
+            "possible_reader_cells"
+          ],
+          "expected": 8,
+          "actual": 8,
+          "passed": true
+        },
+        {
+          "path": [
+            "human_accuracy_measured"
+          ],
+          "expected": false,
+          "actual": false,
+          "passed": true
+        }
+      ],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:28.378456+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/emotion-lens-lab",
+      "commit": "5da2038f675183f89c3a0d787216ed428eebbccc",
+      "check_id": "registered_unit",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": 13,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:28.456197+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/emotion-lens-lab",
+      "commit": "5da2038f675183f89c3a0d787216ed428eebbccc",
+      "check_id": "registered_browser",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "da602153288eac8601b0ff098bfee6d83c2603ca796e7d26b68ce6f5bef631d0",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:29.905978+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/brain-breakers",
+      "commit": "ce7ff30248f73ad6838c4047536d98bdc7942f7c",
+      "check_id": "registered_demo",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "9818928feeb90923f4a2245324e020b6373bdbbe4d08dfa37f24f2853d65ea9c",
+      "json_object": true,
+      "assertions": [
+        {
+          "path": [
+            "paired_trials"
+          ],
+          "expected": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "path": [
+            "injected_detected"
+          ],
+          "expected": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "path": [
+            "repaired_passed"
+          ],
+          "expected": 4,
+          "actual": 4,
+          "passed": true
+        }
+      ],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:29.976995+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/brain-breakers",
+      "commit": "ce7ff30248f73ad6838c4047536d98bdc7942f7c",
+      "check_id": "registered_unit",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": 12,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:30.910728+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/brain-breakers",
+      "commit": "ce7ff30248f73ad6838c4047536d98bdc7942f7c",
+      "check_id": "registered_browser",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "954af0589217d209bfd18122421373ea27d8d44bcc2185dc87743aee5d4becde",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:31.870507+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/hedge-counterexample",
+      "commit": "499f772b215821d87329dcf0329be8b4078f6cb2",
+      "check_id": "registered_demo",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "f6f7aaeb66cb4f5d506d0f993db4d18457d553a28ab5e1436054cdcbc5875b77",
+      "json_object": true,
+      "assertions": [
+        {
+          "path": [
+            "worst",
+            "payoff",
+            "settled_net_cents"
+          ],
+          "expected": -924,
+          "actual": -924,
+          "passed": true
+        },
+        {
+          "path": [
+            "witness_replay",
+            "valid"
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        }
+      ],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:31.933750+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/hedge-counterexample",
+      "commit": "499f772b215821d87329dcf0329be8b4078f6cb2",
+      "check_id": "registered_unit",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": 13,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:32.007757+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/hedge-counterexample",
+      "commit": "499f772b215821d87329dcf0329be8b4078f6cb2",
+      "check_id": "registered_browser",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "4244e1a18b1093ad2b096fd9963783e9159de0fc06597eb73a78698bdfd5609e",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:33.569770+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/semantic-plan-compiler",
+      "commit": "fc2d201ddfb4b7d92431946ab7c54413f2d068e6",
+      "check_id": "registered_demo",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "7d0730fe28727fc878851200c4fd67b745c2ad96c7ca1f1ef6c5d14ffce7011d",
+      "json_object": true,
+      "assertions": [
+        {
+          "path": [
+            "provider_calls"
+          ],
+          "expected": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "path": [
+            "questions_sent"
+          ],
+          "expected": 6,
+          "actual": 6,
+          "passed": true
+        },
+        {
+          "path": [
+            "status"
+          ],
+          "expected": "completed",
+          "actual": "completed",
+          "passed": true
+        }
+      ],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:33.642469+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/semantic-plan-compiler",
+      "commit": "fc2d201ddfb4b7d92431946ab7c54413f2d068e6",
+      "check_id": "registered_unit",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": 17,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:33.763494+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/semantic-plan-compiler",
+      "commit": "fc2d201ddfb4b7d92431946ab7c54413f2d068e6",
+      "check_id": "registered_browser",
+      "passed": true,
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout_sha256": "ab7c0a2dfaabcdcf3e94de229bf30fb4eaf8ffb076943b73fadde3d184bd7b2b",
+      "json_object": false,
+      "assertions": [],
+      "tests_run": null,
+      "tests_skipped": 0,
+      "observed_at": "2026-10-19T21:17:35.353680+00:00",
+      "external_provider_credentials_forwarded": false
+    },
+    {
+      "repository": "gbesse/oss-evidence-atlas",
+      "commit": "package-sha256:bb3067c9188f24b1378a9273213f099dab7b29033c5654fd3c74fdd9e78137c8",
+      "check_id": "registered_unit",
+      "passed": true,
+      "exit_code": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "ef34c889f52102ea59ff0c0050f1fa56ebdb9546b69f39b2e62e48b04fad47dd",
+      "tests_run": 16,
+      "observed_at": "2026-10-19T21:20:56.504979+00:00",
+      "source_pin_kind": "package_file_fingerprint_not_git_commit",
+      "independent_attestation": false
+    },
+    {
+      "repository": "gbesse/oss-evidence-atlas",
+      "commit": "package-sha256:bb3067c9188f24b1378a9273213f099dab7b29033c5654fd3c74fdd9e78137c8",
+      "check_id": "registered_browser",
+      "passed": true,
+      "exit_code": 0,
+      "stdout_sha256": "59163c3b53a0f9d08582d254495130eafa5ed77c70b8da883e6406e066f18b4c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tests_run": null,
+      "observed_at": "2026-10-19T21:20:58.840440+00:00",
+      "source_pin_kind": "package_file_fingerprint_not_git_commit",
+      "independent_attestation": false
+    }
+  ],
+  "manifest_records": [
+    {
+      "repository": "carlaiau/read-with-jev",
+      "commit": "e97c84ba6792ceae987f604b7571529110893ab6",
+      "manifest_path": "package.json",
+      "manifest_sha256": "4fd93fc68950c1003e01fc40645ce7f11e1732a265f253626e99e9bab6be8865",
+      "target": {
+        "ecosystem": "npm",
+        "name": "@typesafe-ai/sdk"
+      },
+      "claims": [
+        {
+          "repository": "carlaiau/read-with-jev",
+          "commit": "e97c84ba6792ceae987f604b7571529110893ab6",
+          "manifest_path": "package.json",
+          "manifest_sha256": "4fd93fc68950c1003e01fc40645ce7f11e1732a265f253626e99e9bab6be8865",
+          "dependency": {
+            "ecosystem": "npm",
+            "name": "@typesafe-ai/sdk",
+            "declared_version": "0.6.0",
+            "scope": "runtime",
+            "section": "dependencies"
+          },
+          "same_github_owner": false,
+          "fork": false,
+          "evidence_kind": "direct_manifest_declaration",
+          "runtime_execution_proven": false,
+          "human_adoption_proven": false,
+          "source_url": "https://github.com/carlaiau/read-with-jev/blob/e97c84ba6792ceae987f604b7571529110893ab6/package.json",
+          "id": "c121d6205a4e8d205567b44fbf810e55495ce059049a3bd1b553bd7469ff843d"
+        }
+      ],
+      "absence_is_not_proof_of_nonuse": true,
+      "observed_at": "2026-10-19T21:17:29.755200+00:00",
+      "authenticated": false,
+      "scope_note": "Method validation on a third-party SDK declaration; this is not adoption evidence for gbesse projects."
+    }
+  ],
+  "anonymous_audits": [
+    {
+      "repository": "gbesse/mission-intent-repair",
+      "commit": "68d6f101be2fe97a388995447c0d986155ae05c7",
+      "authenticated": false,
+      "human_adoption_proven": false,
+      "source_anonymous": true,
+      "source_sha256": "b6eb0a2a637c066757292d2e3c1b057c4962ba9c7564234aa35c1ea3a9899679",
+      "source_hash_matches": true,
+      "wheel_anonymous": true,
+      "wheel_hash_matches": true,
+      "passed": true
+    },
+    {
+      "repository": "gbesse/fab-discovery-loop",
+      "commit": "d1139747780066e4587b454107c44d2a57dc7b36",
+      "authenticated": false,
+      "human_adoption_proven": false,
+      "source_anonymous": true,
+      "source_sha256": "5203ef6ba2d4743382ec162bcd379b530035c9c45fe2b19517d7edf80729857b",
+      "source_hash_matches": true,
+      "wheel_anonymous": true,
+      "wheel_hash_matches": true,
+      "passed": true
+    },
+    {
+      "repository": "gbesse/sql-meaning-mutator",
+      "commit": "97c7602a8b60b444aabd056f408e3813d0d1187f",
+      "authenticated": false,
+      "human_adoption_proven": false,
+      "source_anonymous": true,
+      "source_sha256": "3c9fce34ecacca3461f4ba6b1ed362a201d5d9765b2a929938249246b3707e8c",
+      "source_hash_matches": true,
+      "wheel_anonymous": true,
+      "wheel_hash_matches": true,
+      "passed": true
+    },
+    {
+      "repository": "gbesse/robot-dataset-crash-lab",
+      "commit": "1686d8a08b05b3f05f91211b1992732a819c4669",
+      "authenticated": false,
+      "human_adoption_proven": false,
+      "source_anonymous": true,
+      "source_sha256": "b912e27fa5a676ac39308a217295e125f7e976aeab8e68fb9a1bc7257f66ae6b",
+      "source_hash_matches": true,
+      "wheel_anonymous": true,
+      "wheel_hash_matches": true,
+      "passed": true
+    },
+    {
+      "repository": "gbesse/synthcase-forge",
+      "commit": "345c0d0d1c601eb1511cb140d6743a713f2d40b6",
+      "authenticated": false,
+      "human_adoption_proven": false,
+      "source_anonymous": true,
+      "source_sha256": "40e54b16618f08625a8238bbc0cef8eb5b2fac6278dda7d5848bf776f93b3081",
+      "source_hash_matches": true,
+      "wheel_anonymous": true,
+      "wheel_hash_matches": true,
+      "passed": true
+    },
+    {
+      "repository": "gbesse/invoice-acceptance-contracts",
+      "commit": "8661fc44c67a83466596485c911717c1314acb71",
+      "authenticated": false,
+      "human_adoption_proven": false,
+      "source_anonymous": true,
+      "source_sha256": "ef41eea4851f8dd8c4b256cd7d87858cfc1e41b423051c92a9d53859413c5b75",
+      "source_hash_matches": true,
+      "wheel_anonymous": true,
+      "wheel_hash_matches": true,
+      "passed": true
+    },
+    {
+      "repository": "gbesse/agent-compensation-map",
+      "commit": "7ae51dd901bc67bd5f32d11d098e37e6cd44ac59",
+      "authenticated": false,
+      "human_adoption_proven": false,
+      "source_anonymous": true,
+      "source_sha256": "faf315108d6687e623586abfa01c4fd55f5b59f442533bdf5a0530619ea075d8",
+      "source_hash_matches": true,
+      "wheel_anonymous": true,
+      "wheel_hash_matches": true,
+      "passed": true
+    },
+    {
+      "repository": "gbesse/resource-outage-explorer",
+      "commit": "c1b7ed7f18c405376b27aa57e324a66543e7443b",
+      "authenticated": false,
+      "human_adoption_proven": false,
+      "source_anonymous": true,
+      "source_sha256": "55ed105173679ffe5c716991c1f4785f5d4fa09dcfae58cb1e44c015e3706c41",
+      "source_hash_matches": true,
+      "wheel_anonymous": true,
+      "wheel_hash_matches": true,
+      "passed": true
+    },
+    {
+      "repository": "gbesse/emotion-lens-lab",
+      "commit": "5da2038f675183f89c3a0d787216ed428eebbccc",
+      "authenticated": false,
+      "human_adoption_proven": false,
+      "source_anonymous": true,
+      "source_sha256": "c972cbe2adcc68c28ad4b2f01a62fb911a7872de13895e31fd78152ddc6eb851",
+      "source_hash_matches": true,
+      "wheel_anonymous": true,
+      "wheel_hash_matches": true,
+      "passed": true
+    },
+    {
+      "repository": "gbesse/brain-breakers",
+      "commit": "ce7ff30248f73ad6838c4047536d98bdc7942f7c",
+      "authenticated": false,
+      "human_adoption_proven": false,
+      "source_anonymous": true,
+      "source_sha256": "c2ff0aa23a67d5cc1aacd7dacce178563bfbb162de1ca0c2e7c2e64637c803b7",
+      "source_hash_matches": true,
+      "wheel_anonymous": true,
+      "wheel_hash_matches": true,
+      "passed": true
+    },
+    {
+      "repository": "gbesse/hedge-counterexample",
+      "commit": "499f772b215821d87329dcf0329be8b4078f6cb2",
+      "authenticated": false,
+      "human_adoption_proven": false,
+      "source_anonymous": true,
+      "source_sha256": "af60ee677d2e700a58a4e1c5efd749e380554a674fb44ae4f4acb4da494b65ea",
+      "source_hash_matches": true,
+      "wheel_anonymous": true,
+      "wheel_hash_matches": true,
+      "passed": true
+    },
+    {
+      "repository": "gbesse/semantic-plan-compiler",
+      "commit": "fc2d201ddfb4b7d92431946ab7c54413f2d068e6",
+      "authenticated": false,
+      "human_adoption_proven": false,
+      "source_anonymous": true,
+      "source_sha256": "ddbc2fba7b411744c530057b9626fa27bc6222c36be2df6f99244ebd61fcbfec",
+      "source_hash_matches": true,
+      "wheel_anonymous": true,
+      "wheel_hash_matches": true,
+      "passed": true
+    }
+  ],
+  "portfolio_human_adoption_evidence": [],
+  "source_freshness": [
+    {
+      "contract": {
+        "source_sha256": "b6eb0a2a637c066757292d2e3c1b057c4962ba9c7564234aa35c1ea3a9899679",
+        "source_url": "https://raw.githubusercontent.com/gbesse/mission-intent-repair/main/pyproject.toml",
+        "reproducer": {
+          "repository": "gbesse/mission-intent-repair",
+          "commit": "68d6f101be2fe97a388995447c0d986155ae05c7",
+          "check_id": "registered_demo"
+        }
+      },
+      "result": {
+        "status": "current_and_reproduced",
+        "source_matches_snapshot": true,
+        "source_sha256": "b6eb0a2a637c066757292d2e3c1b057c4962ba9c7564234aa35c1ea3a9899679",
+        "replay_passed": true,
+        "novelty_or_sota_proven": false
+      },
+      "note": "Source snapshot and owned demo are separate observations; this does not establish upstream bug reproduction or novelty.",
+      "replay_receipt": {
+        "repository": "gbesse/mission-intent-repair",
+        "commit": "68d6f101be2fe97a388995447c0d986155ae05c7",
+        "check_id": "registered_demo",
+        "passed": true,
+        "expected_exit": 0,
+        "exit_code": 0,
+        "stdout_sha256": "e2afb26a59dc41f2c46d59e64a96eb514901a574cb0a1b8f64183b21a7b114d9",
+        "json_object": true,
+        "assertions": [
+          {
+            "path": [
+              "outage",
+              "utility"
+            ],
+            "expected": 8,
+            "actual": 8,
+            "passed": true
+          },
+          {
+            "path": [
+              "outage",
+              "replay",
+              "valid"
+            ],
+            "expected": true,
+            "actual": true,
+            "passed": true
+          },
+          {
+            "path": [
+              "outage",
+              "plan",
+              "calibrate"
+            ],
+            "expected": 0,
+            "actual": 0,
+            "passed": true
+          }
+        ],
+        "tests_run": null,
+        "tests_skipped": 0,
+        "observed_at": "2026-10-19T21:17:13.273126+00:00",
+        "external_provider_credentials_forwarded": false
+      }
+    },
+    {
+      "contract": {
+        "source_sha256": "5203ef6ba2d4743382ec162bcd379b530035c9c45fe2b19517d7edf80729857b",
+        "source_url": "https://raw.githubusercontent.com/gbesse/fab-discovery-loop/main/pyproject.toml",
+        "reproducer": {
+          "repository": "gbesse/fab-discovery-loop",
+          "commit": "d1139747780066e4587b454107c44d2a57dc7b36",
+          "check_id": "registered_demo"
+        }
+      },
+      "result": {
+        "status": "current_and_reproduced",
+        "source_matches_snapshot": true,
+        "source_sha256": "5203ef6ba2d4743382ec162bcd379b530035c9c45fe2b19517d7edf80729857b",
+        "replay_passed": true,
+        "novelty_or_sota_proven": false
+      },
+      "note": "Source snapshot and owned demo are separate observations; this does not establish upstream bug reproduction or novelty.",
+      "replay_receipt": {
+        "repository": "gbesse/fab-discovery-loop",
+        "commit": "d1139747780066e4587b454107c44d2a57dc7b36",
+        "check_id": "registered_demo",
+        "passed": true,
+        "expected_exit": 0,
+        "exit_code": 0,
+        "stdout_sha256": "8ffdb6e624426fcd96df16b7920840f62c43b51285a492c79b22066d99dfb922",
+        "json_object": true,
+        "assertions": [
+          {
+            "path": [
+              "recommendation"
+            ],
+            "expected": "p3-d2",
+            "actual": "p3-d2",
+            "passed": true
+          },
+          {
+            "path": [
+              "hardware_executed"
+            ],
+            "expected": false,
+            "actual": false,
+            "passed": true
+          }
+        ],
+        "tests_run": null,
+        "tests_skipped": 0,
+        "observed_at": "2026-10-19T21:17:15.188753+00:00",
+        "external_provider_credentials_forwarded": false
+      }
+    },
+    {
+      "contract": {
+        "source_sha256": "3c9fce34ecacca3461f4ba6b1ed362a201d5d9765b2a929938249246b3707e8c",
+        "source_url": "https://raw.githubusercontent.com/gbesse/sql-meaning-mutator/main/pyproject.toml",
+        "reproducer": {
+          "repository": "gbesse/sql-meaning-mutator",
+          "commit": "97c7602a8b60b444aabd056f408e3813d0d1187f",
+          "check_id": "registered_demo"
+        }
+      },
+      "result": {
+        "status": "current_and_reproduced",
+        "source_matches_snapshot": true,
+        "source_sha256": "3c9fce34ecacca3461f4ba6b1ed362a201d5d9765b2a929938249246b3707e8c",
+        "replay_passed": true,
+        "novelty_or_sota_proven": false
+      },
+      "note": "Source snapshot and owned demo are separate observations; this does not establish upstream bug reproduction or novelty.",
+      "replay_receipt": {
+        "repository": "gbesse/sql-meaning-mutator",
+        "commit": "97c7602a8b60b444aabd056f408e3813d0d1187f",
+        "check_id": "registered_demo",
+        "passed": true,
+        "expected_exit": 1,
+        "exit_code": 1,
+        "stdout_sha256": "ac1b68dc1e24f9ffb3e594c28e4463df40a92c47a8150b15c1cc114154521503",
+        "json_object": true,
+        "assertions": [
+          {
+            "path": [
+              "status"
+            ],
+            "expected": "counterexample",
+            "actual": "counterexample",
+            "passed": true
+          },
+          {
+            "path": [
+              "seed_equal"
+            ],
+            "expected": true,
+            "actual": true,
+            "passed": true
+          },
+          {
+            "path": [
+              "row_count"
+            ],
+            "expected": 4,
+            "actual": 4,
+            "passed": true
+          }
+        ],
+        "tests_run": null,
+        "tests_skipped": 0,
+        "observed_at": "2026-10-19T21:17:16.692872+00:00",
+        "external_provider_credentials_forwarded": false
+      }
+    },
+    {
+      "contract": {
+        "source_sha256": "b912e27fa5a676ac39308a217295e125f7e976aeab8e68fb9a1bc7257f66ae6b",
+        "source_url": "https://raw.githubusercontent.com/gbesse/robot-dataset-crash-lab/main/pyproject.toml",
+        "reproducer": {
+          "repository": "gbesse/robot-dataset-crash-lab",
+          "commit": "1686d8a08b05b3f05f91211b1992732a819c4669",
+          "check_id": "registered_demo"
+        }
+      },
+      "result": {
+        "status": "current_and_reproduced",
+        "source_matches_snapshot": true,
+        "source_sha256": "b912e27fa5a676ac39308a217295e125f7e976aeab8e68fb9a1bc7257f66ae6b",
+        "replay_passed": true,
+        "novelty_or_sota_proven": false
+      },
+      "note": "Source snapshot and owned demo are separate observations; this does not establish upstream bug reproduction or novelty.",
+      "replay_receipt": {
+        "repository": "gbesse/robot-dataset-crash-lab",
+        "commit": "1686d8a08b05b3f05f91211b1992732a819c4669",
+        "check_id": "registered_demo",
+        "passed": true,
+        "expected_exit": 0,
+        "exit_code": 0,
+        "stdout_sha256": "adab242bcad9d423207d5ab9c22d1eeb347e9bc71273296fbd1b6be0386e67ae",
+        "json_object": true,
+        "assertions": [
+          {
+            "path": [
+              "real_process_kills"
+            ],
+            "expected": 8,
+            "actual": 8,
+            "passed": true
+          },
+          {
+            "path": [
+              "safe_protocol_passed"
+            ],
+            "expected": true,
+            "actual": true,
+            "passed": true
+          },
+          {
+            "path": [
+              "broken_control_detected"
+            ],
+            "expected": true,
+            "actual": true,
+            "passed": true
+          }
+        ],
+        "tests_run": null,
+        "tests_skipped": 0,
+        "observed_at": "2026-10-19T21:17:18.489151+00:00",
+        "external_provider_credentials_forwarded": false
+      }
+    },
+    {
+      "contract": {
+        "source_sha256": "40e54b16618f08625a8238bbc0cef8eb5b2fac6278dda7d5848bf776f93b3081",
+        "source_url": "https://raw.githubusercontent.com/gbesse/synthcase-forge/main/pyproject.toml",
+        "reproducer": {
+          "repository": "gbesse/synthcase-forge",
+          "commit": "345c0d0d1c601eb1511cb140d6743a713f2d40b6",
+          "check_id": "registered_demo"
+        }
+      },
+      "result": {
+        "status": "current_and_reproduced",
+        "source_matches_snapshot": true,
+        "source_sha256": "40e54b16618f08625a8238bbc0cef8eb5b2fac6278dda7d5848bf776f93b3081",
+        "replay_passed": true,
+        "novelty_or_sota_proven": false
+      },
+      "note": "Source snapshot and owned demo are separate observations; this does not establish upstream bug reproduction or novelty.",
+      "replay_receipt": {
+        "repository": "gbesse/synthcase-forge",
+        "commit": "345c0d0d1c601eb1511cb140d6743a713f2d40b6",
+        "check_id": "registered_demo",
+        "passed": true,
+        "expected_exit": 0,
+        "exit_code": 0,
+        "stdout_sha256": "3b10859c83f590afe1c5f49c52b6012f33f382795df10b9f2ac3d0e36794e4cd",
+        "json_object": true,
+        "assertions": [
+          {
+            "path": [
+              "dataset",
+              "status"
+            ],
+            "expected": "complete",
+            "actual": "complete",
+            "passed": true
+          },
+          {
+            "path": [
+              "dataset",
+              "synthetic"
+            ],
+            "expected": true,
+            "actual": true,
+            "passed": true
+          }
+        ],
+        "tests_run": null,
+        "tests_skipped": 0,
+        "observed_at": "2026-10-19T21:17:21.181958+00:00",
+        "external_provider_credentials_forwarded": false
+      }
+    },
+    {
+      "contract": {
+        "source_sha256": "ef41eea4851f8dd8c4b256cd7d87858cfc1e41b423051c92a9d53859413c5b75",
+        "source_url": "https://raw.githubusercontent.com/gbesse/invoice-acceptance-contracts/main/pyproject.toml",
+        "reproducer": {
+          "repository": "gbesse/invoice-acceptance-contracts",
+          "commit": "8661fc44c67a83466596485c911717c1314acb71",
+          "check_id": "registered_demo"
+        }
+      },
+      "result": {
+        "status": "current_and_reproduced",
+        "source_matches_snapshot": true,
+        "source_sha256": "ef41eea4851f8dd8c4b256cd7d87858cfc1e41b423051c92a9d53859413c5b75",
+        "replay_passed": true,
+        "novelty_or_sota_proven": false
+      },
+      "note": "Source snapshot and owned demo are separate observations; this does not establish upstream bug reproduction or novelty.",
+      "replay_receipt": {
+        "repository": "gbesse/invoice-acceptance-contracts",
+        "commit": "8661fc44c67a83466596485c911717c1314acb71",
+        "check_id": "registered_demo",
+        "passed": true,
+        "expected_exit": 0,
+        "exit_code": 0,
+        "stdout_sha256": "941ae132ea41082e99bf21e05fcfde6a483c5a2e6a2103810af52698ca2c3eac",
+        "json_object": true,
+        "assertions": [
+          {
+            "path": [
+              "audit",
+              "status"
+            ],
+            "expected": "blocked",
+            "actual": "blocked",
+            "passed": true
+          },
+          {
+            "path": [
+              "proposal",
+              "after_line_subtotal"
+            ],
+            "expected": "12.50",
+            "actual": "12.50",
+            "passed": true
+          },
+          {
+            "path": [
+              "proposal",
+              "audit",
+              "status"
+            ],
+            "expected": "ready_for_review",
+            "actual": "ready_for_review",
+            "passed": true
+          }
+        ],
+        "tests_run": null,
+        "tests_skipped": 0,
+        "observed_at": "2026-10-19T21:17:23.276925+00:00",
+        "external_provider_credentials_forwarded": false
+      }
+    },
+    {
+      "contract": {
+        "source_sha256": "faf315108d6687e623586abfa01c4fd55f5b59f442533bdf5a0530619ea075d8",
+        "source_url": "https://raw.githubusercontent.com/gbesse/agent-compensation-map/main/pyproject.toml",
+        "reproducer": {
+          "repository": "gbesse/agent-compensation-map",
+          "commit": "7ae51dd901bc67bd5f32d11d098e37e6cd44ac59",
+          "check_id": "registered_demo"
+        }
+      },
+      "result": {
+        "status": "current_and_reproduced",
+        "source_matches_snapshot": true,
+        "source_sha256": "faf315108d6687e623586abfa01c4fd55f5b59f442533bdf5a0530619ea075d8",
+        "replay_passed": true,
+        "novelty_or_sota_proven": false
+      },
+      "note": "Source snapshot and owned demo are separate observations; this does not establish upstream bug reproduction or novelty.",
+      "replay_receipt": {
+        "repository": "gbesse/agent-compensation-map",
+        "commit": "7ae51dd901bc67bd5f32d11d098e37e6cd44ac59",
+        "check_id": "registered_demo",
+        "passed": true,
+        "expected_exit": 0,
+        "exit_code": 0,
+        "stdout_sha256": "11782c0e5f2e10ad9765c740d65374ea6bbfbfecb120d75c53deadd6f4e042ab",
+        "json_object": true,
+        "assertions": [
+          {
+            "path": [
+              "verification",
+              "valid"
+            ],
+            "expected": true,
+            "actual": true,
+            "passed": true
+          },
+          {
+            "path": [
+              "verification",
+              "worlds_checked"
+            ],
+            "expected": 3,
+            "actual": 3,
+            "passed": true
+          },
+          {
+            "path": [
+              "worst_case_cost"
+            ],
+            "expected": 9,
+            "actual": 9,
+            "passed": true
+          }
+        ],
+        "tests_run": null,
+        "tests_skipped": 0,
+        "observed_at": "2026-10-19T21:17:25.289006+00:00",
+        "external_provider_credentials_forwarded": false
+      }
+    },
+    {
+      "contract": {
+        "source_sha256": "55ed105173679ffe5c716991c1f4785f5d4fa09dcfae58cb1e44c015e3706c41",
+        "source_url": "https://raw.githubusercontent.com/gbesse/resource-outage-explorer/main/pyproject.toml",
+        "reproducer": {
+          "repository": "gbesse/resource-outage-explorer",
+          "commit": "c1b7ed7f18c405376b27aa57e324a66543e7443b",
+          "check_id": "registered_demo"
+        }
+      },
+      "result": {
+        "status": "current_and_reproduced",
+        "source_matches_snapshot": true,
+        "source_sha256": "55ed105173679ffe5c716991c1f4785f5d4fa09dcfae58cb1e44c015e3706c41",
+        "replay_passed": true,
+        "novelty_or_sota_proven": false
+      },
+      "note": "Source snapshot and owned demo are separate observations; this does not establish upstream bug reproduction or novelty.",
+      "replay_receipt": {
+        "repository": "gbesse/resource-outage-explorer",
+        "commit": "c1b7ed7f18c405376b27aa57e324a66543e7443b",
+        "check_id": "registered_demo",
+        "passed": true,
+        "expected_exit": 0,
+        "exit_code": 0,
+        "stdout_sha256": "ee8844087c1bb10d15ca57cd0560dfc8f41de0cf75d33370df9e9b19b8e257ad",
+        "json_object": true,
+        "assertions": [
+          {
+            "path": [
+              "baseline",
+              "worst",
+              "shortfall"
+            ],
+            "expected": 6,
+            "actual": 6,
+            "passed": true
+          },
+          {
+            "path": [
+              "baseline",
+              "worst",
+              "flow",
+              "certificate",
+              "valid"
+            ],
+            "expected": true,
+            "actual": true,
+            "passed": true
+          },
+          {
+            "path": [
+              "best_single_catalog_upgrade"
+            ],
+            "expected": "independent-backup",
+            "actual": "independent-backup",
+            "passed": true
+          }
+        ],
+        "tests_run": null,
+        "tests_skipped": 0,
+        "observed_at": "2026-10-19T21:17:27.124609+00:00",
+        "external_provider_credentials_forwarded": false
+      }
+    },
+    {
+      "contract": {
+        "source_sha256": "c972cbe2adcc68c28ad4b2f01a62fb911a7872de13895e31fd78152ddc6eb851",
+        "source_url": "https://raw.githubusercontent.com/gbesse/emotion-lens-lab/main/pyproject.toml",
+        "reproducer": {
+          "repository": "gbesse/emotion-lens-lab",
+          "commit": "5da2038f675183f89c3a0d787216ed428eebbccc",
+          "check_id": "registered_demo"
+        }
+      },
+      "result": {
+        "status": "current_and_reproduced",
+        "source_matches_snapshot": true,
+        "source_sha256": "c972cbe2adcc68c28ad4b2f01a62fb911a7872de13895e31fd78152ddc6eb851",
+        "replay_passed": true,
+        "novelty_or_sota_proven": false
+      },
+      "note": "Source snapshot and owned demo are separate observations; this does not establish upstream bug reproduction or novelty.",
+      "replay_receipt": {
+        "repository": "gbesse/emotion-lens-lab",
+        "commit": "5da2038f675183f89c3a0d787216ed428eebbccc",
+        "check_id": "registered_demo",
+        "passed": true,
+        "expected_exit": 0,
+        "exit_code": 0,
+        "stdout_sha256": "8d6efd61935a501b064adbac7906d4fc5022cc443079f455a52d679fbf70c2f5",
+        "json_object": true,
+        "assertions": [
+          {
+            "path": [
+              "observed_reader_cells"
+            ],
+            "expected": 7,
+            "actual": 7,
+            "passed": true
+          },
+          {
+            "path": [
+              "possible_reader_cells"
+            ],
+            "expected": 8,
+            "actual": 8,
+            "passed": true
+          },
+          {
+            "path": [
+              "human_accuracy_measured"
+            ],
+            "expected": false,
+            "actual": false,
+            "passed": true
+          }
+        ],
+        "tests_run": null,
+        "tests_skipped": 0,
+        "observed_at": "2026-10-19T21:17:28.378456+00:00",
+        "external_provider_credentials_forwarded": false
+      }
+    },
+    {
+      "contract": {
+        "source_sha256": "c2ff0aa23a67d5cc1aacd7dacce178563bfbb162de1ca0c2e7c2e64637c803b7",
+        "source_url": "https://raw.githubusercontent.com/gbesse/brain-breakers/main/pyproject.toml",
+        "reproducer": {
+          "repository": "gbesse/brain-breakers",
+          "commit": "ce7ff30248f73ad6838c4047536d98bdc7942f7c",
+          "check_id": "registered_demo"
+        }
+      },
+      "result": {
+        "status": "current_and_reproduced",
+        "source_matches_snapshot": true,
+        "source_sha256": "c2ff0aa23a67d5cc1aacd7dacce178563bfbb162de1ca0c2e7c2e64637c803b7",
+        "replay_passed": true,
+        "novelty_or_sota_proven": false
+      },
+      "note": "Source snapshot and owned demo are separate observations; this does not establish upstream bug reproduction or novelty.",
+      "replay_receipt": {
+        "repository": "gbesse/brain-breakers",
+        "commit": "ce7ff30248f73ad6838c4047536d98bdc7942f7c",
+        "check_id": "registered_demo",
+        "passed": true,
+        "expected_exit": 0,
+        "exit_code": 0,
+        "stdout_sha256": "9818928feeb90923f4a2245324e020b6373bdbbe4d08dfa37f24f2853d65ea9c",
+        "json_object": true,
+        "assertions": [
+          {
+            "path": [
+              "paired_trials"
+            ],
+            "expected": 4,
+            "actual": 4,
+            "passed": true
+          },
+          {
+            "path": [
+              "injected_detected"
+            ],
+            "expected": 4,
+            "actual": 4,
+            "passed": true
+          },
+          {
+            "path": [
+              "repaired_passed"
+            ],
+            "expected": 4,
+            "actual": 4,
+            "passed": true
+          }
+        ],
+        "tests_run": null,
+        "tests_skipped": 0,
+        "observed_at": "2026-10-19T21:17:29.976995+00:00",
+        "external_provider_credentials_forwarded": false
+      }
+    },
+    {
+      "contract": {
+        "source_sha256": "af60ee677d2e700a58a4e1c5efd749e380554a674fb44ae4f4acb4da494b65ea",
+        "source_url": "https://raw.githubusercontent.com/gbesse/hedge-counterexample/main/pyproject.toml",
+        "reproducer": {
+          "repository": "gbesse/hedge-counterexample",
+          "commit": "499f772b215821d87329dcf0329be8b4078f6cb2",
+          "check_id": "registered_demo"
+        }
+      },
+      "result": {
+        "status": "current_and_reproduced",
+        "source_matches_snapshot": true,
+        "source_sha256": "af60ee677d2e700a58a4e1c5efd749e380554a674fb44ae4f4acb4da494b65ea",
+        "replay_passed": true,
+        "novelty_or_sota_proven": false
+      },
+      "note": "Source snapshot and owned demo are separate observations; this does not establish upstream bug reproduction or novelty.",
+      "replay_receipt": {
+        "repository": "gbesse/hedge-counterexample",
+        "commit": "499f772b215821d87329dcf0329be8b4078f6cb2",
+        "check_id": "registered_demo",
+        "passed": true,
+        "expected_exit": 0,
+        "exit_code": 0,
+        "stdout_sha256": "f6f7aaeb66cb4f5d506d0f993db4d18457d553a28ab5e1436054cdcbc5875b77",
+        "json_object": true,
+        "assertions": [
+          {
+            "path": [
+              "worst",
+              "payoff",
+              "settled_net_cents"
+            ],
+            "expected": -924,
+            "actual": -924,
+            "passed": true
+          },
+          {
+            "path": [
+              "witness_replay",
+              "valid"
+            ],
+            "expected": true,
+            "actual": true,
+            "passed": true
+          }
+        ],
+        "tests_run": null,
+        "tests_skipped": 0,
+        "observed_at": "2026-10-19T21:17:31.933750+00:00",
+        "external_provider_credentials_forwarded": false
+      }
+    },
+    {
+      "contract": {
+        "source_sha256": "ddbc2fba7b411744c530057b9626fa27bc6222c36be2df6f99244ebd61fcbfec",
+        "source_url": "https://raw.githubusercontent.com/gbesse/semantic-plan-compiler/main/pyproject.toml",
+        "reproducer": {
+          "repository": "gbesse/semantic-plan-compiler",
+          "commit": "fc2d201ddfb4b7d92431946ab7c54413f2d068e6",
+          "check_id": "registered_demo"
+        }
+      },
+      "result": {
+        "status": "current_and_reproduced",
+        "source_matches_snapshot": true,
+        "source_sha256": "ddbc2fba7b411744c530057b9626fa27bc6222c36be2df6f99244ebd61fcbfec",
+        "replay_passed": true,
+        "novelty_or_sota_proven": false
+      },
+      "note": "Source snapshot and owned demo are separate observations; this does not establish upstream bug reproduction or novelty.",
+      "replay_receipt": {
+        "repository": "gbesse/semantic-plan-compiler",
+        "commit": "fc2d201ddfb4b7d92431946ab7c54413f2d068e6",
+        "check_id": "registered_demo",
+        "passed": true,
+        "expected_exit": 0,
+        "exit_code": 0,
+        "stdout_sha256": "7d0730fe28727fc878851200c4fd67b745c2ad96c7ca1f1ef6c5d14ffce7011d",
+        "json_object": true,
+        "assertions": [
+          {
+            "path": [
+              "provider_calls"
+            ],
+            "expected": 4,
+            "actual": 4,
+            "passed": true
+          },
+          {
+            "path": [
+              "questions_sent"
+            ],
+            "expected": 6,
+            "actual": 6,
+            "passed": true
+          },
+          {
+            "path": [
+              "status"
+            ],
+            "expected": "completed",
+            "actual": "completed",
+            "passed": true
+          }
+        ],
+        "tests_run": null,
+        "tests_skipped": 0,
+        "observed_at": "2026-10-19T21:17:33.642469+00:00",
+        "external_provider_credentials_forwarded": false
+      }
+    }
+  ]
+}

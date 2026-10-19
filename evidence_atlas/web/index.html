@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>OSS Evidence Atlas</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/">OSS / EVIDENCE ATLAS</a>
+      <nav aria-label="Language">
+        <a href="?lang=fr">FR</a><a href="?lang=en">EN</a><a href="?lang=es">ES</a>
+      </nav>
+    </header>
+    <main>
+      <section class="intro">
+        <p class="eyebrow" data-i18n="eyebrow"></p>
+        <h1 data-i18n="title"></h1>
+        <p class="lede" data-i18n="lede"></p>
+      </section>
+      <section class="workspace">
+        <aside>
+          <span class="number">01 /</span>
+          <h2 data-i18n="inspect"></h2>
+          <div class="tabs">
+            <button id="tab-projects" data-i18n="projects"></button
+            ><button id="tab-coverage" data-i18n="coverage"></button
+            ><button id="tab-usage" data-i18n="usage"></button
+            ><button id="tab-freshness" data-i18n="freshness"></button>
+          </div>
+          <label class="field" for="project-filter" data-i18n="filter"></label
+          ><select id="project-filter">
+            <option value="all" data-i18n="all"></option>
+            <option value="global-open-source">global-open-source</option>
+            <option value="jev">jev</option></select
+          ><button id="download" class="secondary" data-i18n="download"></button>
+          <p class="hint" data-i18n="recorded"></p>
+          <p id="status" role="status"></p>
+        </aside>
+        <article>
+          <div class="section-head">
+            <div>
+              <span class="number">02 /</span>
+              <h2 id="panel-title"></h2>
+            </div>
+            <span class="badge" data-i18n="bounded"></span>
+          </div>
+          <div class="metrics">
+            <div><strong id="projects-count">—</strong><span data-i18n="projects"></span></div>
+            <div><strong id="coverage-count">—</strong><span data-i18n="covered"></span></div>
+            <div><strong id="audits-count">—</strong><span data-i18n="audits"></span></div>
+          </div>
+          <section id="panel-projects"><div id="cards" class="cards"></div></section>
+          <section id="panel-coverage" hidden>
+            <label class="toggle"
+              ><input type="checkbox" id="remove-proof" /><span data-i18n="removeProof"></span
+            ></label>
+            <p class="hint" data-i18n="coverageExplain"></p>
+            <div id="requirements"></div>
+          </section>
+          <section id="panel-usage" hidden>
+            <h3 data-i18n="notAdoption"></h3>
+            <p data-i18n="noPortfolioUse"></p>
+            <p class="hint" data-i18n="methodOnly"></p>
+            <div id="declarations"></div>
+          </section>
+          <section id="panel-freshness" hidden>
+            <p data-i18n="freshExplain"></p>
+            <label class="toggle"
+              ><input type="checkbox" id="source-changed" /><span
+                data-i18n="sourceChanged"
+              ></span></label
+            ><label class="toggle"
+              ><input type="checkbox" id="replay-failed" /><span
+                data-i18n="replayFailed"
+              ></span></label
+            ><button id="fresh-check" data-i18n="freshCheck"></button>
+            <div id="fresh-result" class="proof"></div>
+            <p class="hint" data-i18n="simulation"></p>
+            <h3 data-i18n="snapshots"></h3>
+            <div id="source-records"></div>
+          </section>
+        </article>
+      </section>
+      <footer>
+        <p data-i18n="limits"></p>
+        <a href="https://github.com/gbesse/oss-evidence-atlas">GitHub ↗</a>
+      </footer>
+    </main>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
