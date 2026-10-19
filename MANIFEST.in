@@ -1,0 +1,3 @@
+recursive-include evidence_atlas/web *
+recursive-include evidence_atlas/examples *
+include README*.md LICENSE
